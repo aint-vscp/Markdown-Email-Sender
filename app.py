@@ -5,6 +5,14 @@ from msal import ConfidentialClientApplication
 import markdown
 import csv
 
+# To add:
+# 1. Add a input url for logo for the header and footer of the email (should be saveable)
+# 2. Add that you can do {} in the markdown and it will be replaced by the data in the csv file
+# 3. Add an input for the sender's email and password
+# 4. Add an input for what's the header in the csv file for the email addresses
+# 5. Add a radio button to mark if the email is important or not (if important, mark as important)
+# 6. Add a dropdown for the schedule of the email if need to be address in calendar
+
 def send_email():
     # Convert Markdown to HTML
     html = markdown.markdown(text_area.get("1.0", "end-1c"))
