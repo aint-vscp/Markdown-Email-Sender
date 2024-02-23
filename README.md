@@ -1,3 +1,3 @@
 # MLSC-Database
 
-[Test](https://www.vscp.dev)
+[Video Guide](https://fb.watch/qnXJyVQNhu/)
